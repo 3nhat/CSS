@@ -61,6 +61,12 @@
 		flex-wrap: wrap;
 		align-items: center;
 	}
+
+	.quangcao_div_1 {
+		width: 90%;
+		height: auto;
+		margin: auto;
+	}
 	 
 	.quangcao_iframe {
 		width: 100vw;
