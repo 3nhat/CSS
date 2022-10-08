@@ -21,6 +21,8 @@
         
       	--hesoContent1 : 2;
       	--hesoContent2 : 5;
+	
+	--width-31G: calc(5vh * (2 - var(--thietbi)) + 5vw * (var(--thietbi) - 1));
 }
 
 html, body {
@@ -157,9 +159,9 @@ body{
 
 .VirtualButton {
 	z-index: 99;
-	width: 30px; 
-	height: 30px;
-	font-size: 30px; 
+	width: var(--width-31G); 
+	height: var(--width-31G);
+	font-size: 1em; 
 	position: absolute; 
 	border-radius: 50%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
