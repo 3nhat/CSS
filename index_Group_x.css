@@ -23,6 +23,7 @@
       	--hesoContent2 : 5;
 	
 	--width-31G: calc(5vh * (2 - var(--thietbi)) + 5vw * (var(--thietbi) - 1));
+	--font-size-31G: 1em;
 }
 
 html, body {
@@ -161,7 +162,7 @@ body{
 	z-index: 99;
 	width: var(--width-31G); 
 	height: var(--width-31G);
-	font-size: 1em; 
+	font-size: var(--font-size-31G); 
 	position: absolute; 
 	border-radius: 50%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
