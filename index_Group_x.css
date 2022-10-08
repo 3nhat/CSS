@@ -60,6 +60,10 @@ body{
       color-adjust: exact !important;
 }
 
+.DDOS {
+	z-index: 99;
+}
+
 #xacnhan {
       margin-left: auto;
       margin-right: auto;
