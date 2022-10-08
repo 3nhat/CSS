@@ -175,6 +175,7 @@ body{
 	justify-content: center; 
 	align-items: center;
 }
+.VirtualButton div{ width: 100%;}
 		
 .header, .content {
 	z-index: 90;
