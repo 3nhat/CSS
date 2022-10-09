@@ -34,7 +34,7 @@ html, body {
 }
 
 
-body, .content, .content1, .content2, .content3 { 
+html, body, .content, .content1, .content2, .content3 { 
       	overflow: hidden;	
 }
         
