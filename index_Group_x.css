@@ -250,9 +250,16 @@ body{
 	width: 100%;
 }
 
+
 .content{
 	display: flex;
     	flex-direction: row;  
+	
+	position: fixed;
+
+      	overflow: scroll;
+      	-webkit-overflow-scrolling: touch;
+      	overflow-scrolling: touch;
 }
 
 .content1, .content2, .content3{
