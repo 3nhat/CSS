@@ -13,6 +13,7 @@
       	--display-content3: none;
         
       	--display-content-phu: flex;
+	--display-VD_content1bKKb2: none;
 
       	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
         
@@ -350,12 +351,15 @@ body{
     	margin-left: calc(var(--size-standard)/40);
     	text-align: center;
 }
+
 .VD_content1bKKb2{
 	margin-top: calc(3*var(--size-standard)/40);
     	margin-left: calc(var(--size-standard)/40);
     	text-align: center;
     	margin-top: calc(-1 * var(--thietbi) * var(--size-standard)/40);
+	display: var(--display-VD_content1bKKb2);
 }
+
 .VD_content1bKKc{
 	width: calc(3*(var(--width-content)/4 - 3*var(--size-standard)/40));
     	display: flex;
