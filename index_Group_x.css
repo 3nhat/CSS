@@ -344,6 +344,9 @@ body{
 	border: 0.5px solid;
     	text-align: center;
 }
+
+.STT_VD {display: none;}
+
 .VD_content1bKKb{
 	margin-top: calc(1*var(--size-standard)/40);
     	margin-left: calc(var(--size-standard)/40);
