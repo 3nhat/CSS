@@ -13,7 +13,7 @@
       	--display-content3: none;
         
       	--display-content-phu: flex;
-	--display-VD_content1bKKb2: none;
+	--display-VD_content1bKKb2: block;
 
       	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
         
