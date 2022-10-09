@@ -14,6 +14,7 @@
         
       	--display-content-phu: flex;
 	--display-VD_content1bKKb2: none;
+	--display-STT_VD: none;
 
       	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
         
@@ -433,7 +434,8 @@ body{
   	margin-top: calc(-3 * var(--thietbi) * var(--size-standard)/50);
   }
 
- 
+.STT_VD {display: var(--display-STT_VD); }
+
 .header {
 	width: 100%;
     	overflow: hidden;
