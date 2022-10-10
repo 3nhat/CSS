@@ -29,11 +29,15 @@
 }
 
 html, body {
-	width: 100vw;
+	max-width: 100%;
+    	overflow-x: hidden;
+	
 	height: 100%;
 	padding: 0;
 	margin: 0;
 }
+
+
 
 
 html, body, .content, .content1, .content2, .content3 { 
@@ -627,8 +631,7 @@ input 				{
 
 }
 
-input[type='text'],input[type='number'],textarea {font-size: 1em;}
-body{ -webkit-text-size-adjust:none;}
+input {font-size: 1em;}
 
 input:focus 		{ outline:none; }
 
