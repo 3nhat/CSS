@@ -199,7 +199,8 @@ body{
 	justify-content: center; 
 	align-items: flex-start; /*center;*/
 	
-	padding: 0 calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content));
+	/*padding: 0 calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content));*/
+	padding: 0;
 }
 
 .Alert_khung {
