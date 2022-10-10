@@ -223,8 +223,6 @@ body{
 	height: calc(var(--size-standard)/4);
 	margin-top: calc(0.01 * var(--width-content));
 	
-	border-bottom: blue solid;
-	
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -260,7 +258,7 @@ body{
 	border-radius: 5%; 
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	border: 0.5px solid;
-	padding: calc(0.01 * var(--width-content));
+	padding: calc(0.06 * var(--width-content)) calc(0.01 * var(--width-content)) calc(0.06 * var(--width-content)) calc(0.06 * var(--width-content));
 	
 	background: blue;
 	color: white;
