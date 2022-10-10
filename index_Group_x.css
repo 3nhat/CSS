@@ -193,7 +193,7 @@ body{
 	
 	left: 0;
 	top: calc(5 * var(--size-standard)/4 + 8 * var(--size-standard)/40);
-	opacity: 0.8; 
+	/*opacity: 0.8; */
 	 
 	display: flex;
 	justify-content: center; 
@@ -201,11 +201,10 @@ body{
 }
 
 .Alert_khung {
-	border-radius: 4%; 
+	border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: white;
 	font-weight: 600; 
-	opacity: 1;
 	width: var(--width-content);
 	top: calc(8 * var(--size-standard)/40);
 	
