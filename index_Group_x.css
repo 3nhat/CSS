@@ -190,7 +190,7 @@ body{
 	
 	width: 100vw; /*var(--width-content);*/
 	/*margin: calc(var(--size-standard)/40);*/
-    	height: calc( var(--height-content) + var(--size-standard)/4 );
+    	height: calc( var(--height-content) + 2 * var(--size-standard)/4 );
 	
 	font-size: var(--font-size-31G); 
 	
