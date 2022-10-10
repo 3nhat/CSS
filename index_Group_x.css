@@ -627,7 +627,7 @@ input 				{
 
 }
 
-input[type='text'],input[type='number'],textarea {font-size: calc(var(--size-standard)/6);;}
+input[type='text'],input[type='number'],textarea {font-size: 1em;}
 body{ -webkit-text-size-adjust:none;}
 
 input:focus 		{ outline:none; }
@@ -635,7 +635,7 @@ input:focus 		{ outline:none; }
 /* LABEL ======================================= */
 label 				 {
   color:#999; 
-  font-size:calc(var(--size-standard)/12);;
+  font-size:1em;
   font-weight:normal;
   position:absolute;
   pointer-events:none;
@@ -649,7 +649,7 @@ label 				 {
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
   top:-6px;
-  font-size: calc(var(--size-standard)/6);
+  font-size: 1em;
   color:#5264AE;
 }
 
