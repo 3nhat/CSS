@@ -244,7 +244,7 @@ body{
 .Alert_header_2 {
 	
 	flex: calc(0.9 * var(--width-content) - var(--size-standard)/4);
-	max-height: calc(var(--size-standard)/4);
+	height: calc(var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -260,8 +260,8 @@ body{
 }
 
 .Alert_body {
-	calc(0.9 * var(--width-content));
-	height: var(--height-content);
+	width: calc(0.9 * var(--width-content));
+	max-height: var(--height-content);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
