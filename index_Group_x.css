@@ -16,9 +16,13 @@
       	--display-content-phu: flex;
 	--display-VD_content1bKKb2: none;
 	--display-STT_VD: none;
-
-      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
+	
+	
+	--size-mau:  calc((var(--size-standard)/4) / (2 * var(--thietbi) - 1));
+      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau) - 2 * var(--size-mau)/10 - 2 * 2 * var(--size-mau)/10 - var(--size-standard)/(2 * var(--thietbi) - 1) - var(--size-mau) - 2 * 2 * var(--size-mau)/10 - 2 * var(--size-mau)/10 - 2 * var(--size-mau)/10 - 2 * 2 * var(--size-mau)/10 - 1.5 * 2 * var(--size-mau)/10);
+        //--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
         
+	
       	--heso-cotcontent : 3;
       	--width-content: calc(100vw / var(--heso-cotcontent) - 6 * var(--size-standard)/40);
         
