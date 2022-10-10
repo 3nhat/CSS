@@ -219,7 +219,7 @@ body{
 	font-weight: 600; 
 	width: calc(0.9 * var(--width-content));
 	height: calc(var(--size-standard)/4);
-	margin-top: calc(8 * var(--size-standard)/40);
+	/*margin-top: calc(8 * var(--size-standard)/40);*/
 	
 	display: flex; 
 	justify-content: center; 
@@ -256,7 +256,7 @@ body{
 
 .Alert_body {
 	width: 100%;
-	max-height: calc( var(--height-content) + 2 * var(--size-standard)/4 - var(--size-standard)/4);
+	height: calc( var(--height-content) + 2 * var(--size-standard)/4 - var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
