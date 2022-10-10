@@ -332,12 +332,14 @@ body{
 	height: var(--size-mau);
     	width: var(--size-mau);
     	padding: calc(2 * var(--size-mau)/40));
+	margin-left: calc(2 * var(--size-mau)/40);
+	margin-right: calc(2 * var(--size-mau)/40);
 }
 		
 .header2_2{
 	height: var(--size-mau);
-	margin-left: calc(2 * var(--size-mau)/40);
-    	width: calc(100vw - var(--size-mau) - 2 * var(--size-mau)/40);
+	
+    	width: calc(100vw - var(--size-mau) - 4 * var(--size-mau)/40);
     	border-radius: calc(3 * var(--size-mau)/40);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
