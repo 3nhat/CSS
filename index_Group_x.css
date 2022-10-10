@@ -190,11 +190,11 @@ body{
 	
 	width: var(--width-content);
 	/*margin: calc(var(--size-standard)/40);*/
-    	height: var(--height-content);
+    	height: calc(var(--height-content) + 8 * var(--size-standard)/40));
 	
 	font-size: var(--font-size-31G); 
 	
-	left: 0;
+	left: calc(var(--width-content) * (2 - var(--thiebi)));
 	top: calc(6 * var(--size-standard)/4);
 	opacity: 0.8; 
 	 
