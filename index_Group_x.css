@@ -323,17 +323,17 @@ body{
 .header2{
 	display: flex;
   	flex-direction: row;
-    	margin-top: calc(2 * var(--size-standard)/40);
+    	margin-top: calc((2 * var(--size-standard)/40) / (2 * var(--thietbi) - 1));
 }
 		
 .header2_1{
-	height: calc(var(--size-standard) / (2 * var(--thietbi) - 1));
+	height: calc(var(--size-standard) / var(--thietbi));
     	width: var(--size-standard);
     	padding: calc(2 * var(--size-standard)/40);
 }
 		
 .header2_2{
-	height: calc(var(--size-standard) / (2 * var(--thietbi) - 1)); /*var(--size-standard);*/
+	height: calc(var(--size-standard) / var(--thietbi) ); /*var(--size-standard);*/
     	width: calc(100vw - var(--size-standard) - 6 * var(--size-standard)/40);
     	border-radius: calc(3 * var(--size-standard)/40);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -577,7 +577,7 @@ body{
 		
 .logo {
 	display: var(--display-logo);
-    	font-size: calc(var(--size-standard) / (2 * var(--thietbi) - 1));
+    	font-size: calc(var(--size-standard) / (3 * var(--thietbi) - 2));
     	width: 0.1em;
     	height: 1em;
     	background: linear-gradient(#8d0213, #000);
