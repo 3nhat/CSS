@@ -396,9 +396,20 @@ body{
   	flex-direction: row;
 }
 		
-.content1a1, .content1a2, .content2a1, .content2a2, .content3a1, .content3a2{
+.content1a1, .content1a2, .content2a1, .content2a2, .content2a4, .content3a1, .content3a2{
 	height: calc(var(--size-standard)/2);
     	width: calc(var(--size-standard)/2);
+   	margin-left: calc(2* var(--size-standard)/40);
+    	margin-right: calc(2* var(--size-standard)/40);
+    	font-size: calc(var(--size-standard)/6);
+
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+}
+.content2a3 {
+	height: calc(var(--size-standard)/2);
+    	width: calc(var(--width-content) -  - 3*var(--size-standard)/2 - 6 * 2 * var(--size-standard)/40);
    	margin-left: calc(2* var(--size-standard)/40);
     	margin-right: calc(2* var(--size-standard)/40);
     	font-size: calc(var(--size-standard)/6);
@@ -598,3 +609,100 @@ body{
   .logo:after {
     	transform: rotateY(-90deg);
   }
+
+
+.group 			  { 
+  font-family:'Roboto';
+  position:relative; 
+  margin-bottom:45px; 
+  margin-top:30px;
+  
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:20px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-10px;
+  font-size:12px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
