@@ -252,7 +252,7 @@ body{
 	border-radius: 2%; 
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	border: 0.5px solid;
-	padding: calc(0.05 * var(--width-content));
+	padding: calc(0.01 * var(--width-content));
 	
 	background: blue;
 	color: white;
@@ -260,7 +260,7 @@ body{
 }
 
 .Alert_body {
-	width: calc(0.9 * var(--width-content));
+	/*width: calc(0.9 * var(--width-content));*/
 	max-height: var(--height-content);
 	display: flex; 
 	justify-content: center; 
