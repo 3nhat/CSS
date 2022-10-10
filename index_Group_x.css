@@ -6,7 +6,7 @@
         
       	--thietbi: 1; /*mobile (dọc): 2; laptop + mobile(ngang): 1*/
 	--size_bandau: 25vw;
-      	--size-standard: calc(var(--size_bandau) / (2 * var(--thietbi) - 1)); /*25vw*/
+      	--size-standard: calc(var(--size_bandau) / 3); /*25vw*/ /*(2 * var(--thietbi) - 1)*/
       	--display-ngang: none;
       	--display-doc: none; /*block;*/
       	--display-content1: none;
