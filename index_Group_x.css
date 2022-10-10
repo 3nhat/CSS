@@ -626,6 +626,7 @@ body{
 
 .group 			  { 
   /*font-family:'Roboto';*/
+  font-family:courier,arial,helvetica;
   position:relative; 
   /*margin-bottom:45px; 
   margin-top:30px;*/
