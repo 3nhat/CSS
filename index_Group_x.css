@@ -301,7 +301,7 @@ body{
 }
 
 .header1{
-	width: calc(100vw - 6 * var(--size-standard)/40);
+	width: calc((100vw - 6 * var(--size-standard)/40)/4);
     	margin: calc(var(--size-standard)/40);
     	padding: calc(2 * var(--size-standard)/40);
     	height: calc(var(--size-standard)/4);
