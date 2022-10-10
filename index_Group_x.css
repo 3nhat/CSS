@@ -579,7 +579,7 @@ body{
 		
 .logo {
 	display: var(--display-logo);
-    	font-size: var(--size-mau));
+    	font-size: var(--size-mau);
     	width: 0.1em;
     	height: 1em;
     	background: linear-gradient(#8d0213, #000);
