@@ -217,7 +217,7 @@ body{
 	border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	font-weight: 600; 
-	width: calc(0.8 * var(--width-content));
+	width: calc(0.9 * var(--width-content));
 	height: calc(var(--size-standard)/4);
 	margin-top: calc(8 * var(--size-standard)/40);
 	
@@ -239,7 +239,7 @@ body{
 }
 .Alert_header_2 {
 	
-	flex: calc(0.8 * var(--width-content) - 2 * var(--size-standard)/4);
+	flex: calc(0.9 * var(--width-content) - 2 * var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -251,7 +251,7 @@ body{
 
 .Alert_body {
 	width: 100%;
-	height: calc( var(--height-content) + 2 * var(--size-standard)/4 - var(--size-standard)/4);
+	max-height: calc( var(--height-content) + 2 * var(--size-standard)/4 - var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
