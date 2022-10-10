@@ -5,7 +5,7 @@
 	--display-logo: none;
         
       	--thietbi: 1; /*mobile (dọc): 2; laptop + mobile(ngang): 1*/
-      	--size-standard: 25vw;
+      	--size-standard: 25%;
       	--display-ngang: none;
       	--display-doc: none; /*block;*/
       	--display-content1: none;
