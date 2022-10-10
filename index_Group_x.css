@@ -236,20 +236,22 @@ body{
 	align-items: center;
 	
 	border-radius: 2%; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	border: 0.5px solid;
 	
 	padding: calc(0.01 * var(--width-content));
 }
 .Alert_header_2 {
 	
-	flex: calc(0.9 * var(--width-content) - 2 * var(--size-standard)/4);
+	flex: calc(0.9 * var(--width-content) - var(--size-standard)/4);
 	height: calc(var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
 	
 	border-radius: 2%; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	border: 0.5px solid;
 	padding: calc(0.01 * var(--width-content));
 	
 }
