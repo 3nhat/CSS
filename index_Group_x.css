@@ -195,7 +195,7 @@ body{
 	font-size: var(--font-size-31G); 
 	
 	left: 0;
-	top: calc(5 * var(--size-standard)/4 + 4 * var(--size-standard)/40);
+	top: calc(5 * var(--size-standard)/4 + 6 * var(--size-standard)/40);
 	opacity: 0.8; 
 	 
 	display: flex; 
