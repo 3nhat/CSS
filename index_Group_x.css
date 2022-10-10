@@ -635,7 +635,7 @@ body{
 }
 #content1a3_input, #content2a3_input 				{
   font-size: initial; /*18px;*/
-  font-weight: 900;
+  font-weight: 500;
   padding:10px 10px 2px 5px;
   display:block;
   width:90%;
