@@ -200,6 +200,38 @@ body{
 	 
 	display: flex; 
 	justify-content: center; 
+	align-items: flex-start; /*center;*/
+}
+
+.Alert_khung {
+	border-radius: 2%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	font-weight: 600; 
+	top: calc(8 * var(--size-standard)/40);
+}
+
+.Alert_header {
+	border-radius: 2%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	font-weight: 600; 
+	top: calc(8 * var(--size-standard)/40);
+	
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+.Alert_header_1 {
+	
+	flex: 1;
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+.Alert_header_2 {
+	
+	flex: 4;
+	display: flex; 
+	justify-content: center; 
 	align-items: center;
 }
 		
