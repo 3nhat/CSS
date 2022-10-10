@@ -328,20 +328,20 @@ body{
 		
 .header2_1{
 	height: calc(var(--size-standard) / var(--thietbi));
-    	width: var(--size-standard);
+    	width: calc(var(--size-standard) / var(--thietbi));
     	padding: calc(2 * var(--size-standard)/40);
 }
 		
 .header2_2{
 	height: calc(var(--size-standard) / var(--thietbi) ); /*var(--size-standard);*/
-    	width: calc(100vw - var(--size-standard) - 6 * var(--size-standard)/40);
+    	width: calc(100vw - var(--size-standard) / var(--thietbi) - 6 * (var(--size-standard)/40) / (2 * var(--thietbi) - 1));
     	border-radius: calc(3 * var(--size-standard)/40);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header3{
-   	margin: calc(var(--size-standard)/40);
-    	padding: calc(var(--size-standard)/80);
+   	margin: calc((var(--size-standard)/40) / (2 * var(--thietbi) - 1));
+    	padding: calc((var(--size-standard)/80) / (2 * var(--thietbi) - 1));
 
     	font-size: calc(var(--size-standard)/8);
 	text-align: center;
