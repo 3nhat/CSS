@@ -345,7 +345,7 @@ body{
    	margin: calc(var(--size-mau)/40);
     	padding: calc(var(--size-mau)/80);
 
-    	font-size: calc((2 * var(--thietbi) - 1) * var(--size-mau)/8);
+    	font-size: calc((var(--thietbi) + 1) * var(--size-mau)/16);
 	text-align: center;
     	font-weight: 900;
     
