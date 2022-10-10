@@ -5,7 +5,7 @@
 	--display-logo: none;
         
       	--thietbi: 1; /*mobile (dọc): 2; laptop + mobile(ngang): 1*/
-      	--size-standard: 25vw;
+      	--size-standard: calc( 25vw / var(--thietbi));
       	--display-ngang: none;
       	--display-doc: none; /*block;*/
       	--display-content1: none;
@@ -305,7 +305,7 @@ body{
     	margin: calc(var(--size-standard)/40);
     	padding: calc(2 * var(--size-standard)/40);
     	height: calc(var(--size-standard)/4);
-    	font-size: calc(var(--size-standard)/32);
+    	font-size: calc(var(--size-standard)/4);
 	text-align: center;
     	font-weight: 900;
     	background: blue;
