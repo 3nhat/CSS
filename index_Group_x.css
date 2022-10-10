@@ -396,7 +396,7 @@ body{
   	flex-direction: row;
 }
 		
-.content1a1, .content1a2, .content2a1, .content2a2, .content2a4, .content3a1, .content3a2{
+.content1a1, .content1a2, .content1a4, .content2a1, .content2a2, .content2a4, .content3a1, .content3a2{
 	height: calc(var(--size-standard)/2);
     	width: calc(var(--size-standard)/2);
    	margin-left: calc(2* var(--size-standard)/40);
@@ -407,7 +407,7 @@ body{
     	align-items: center;
     	justify-content: center;
 }
-.content2a3 {
+.content2a3, .content1a3 {
 	height: calc(var(--size-standard)/2);
     	width: calc(var(--width-content) -  - 3*var(--size-standard)/2 - 6 * 2 * var(--size-standard)/40);
    	margin-left: calc(2* var(--size-standard)/40);
