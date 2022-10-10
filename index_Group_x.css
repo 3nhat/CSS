@@ -223,6 +223,8 @@ body{
 	height: calc(var(--size-standard)/4);
 	margin-top: calc(0.01 * var(--width-content));
 	
+	border-bottom: blue solid;
+	
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
