@@ -190,12 +190,12 @@ body{
 	
 	width: var(--width-content);
 	/*margin: calc(var(--size-standard)/40);*/
-    	height: calc(var(--height-content) + 8 * var(--size-standard)/40));
+    	height: calc(var(--height-content) + 8 * var(--size-standard)/40);
 	
 	font-size: var(--font-size-31G); 
 	
 	left: calc(var(--width-content) * (2 - var(--thiebi)));
-	top: calc(6 * var(--size-standard)/4);
+	top: calc(5 * var(--size-standard)/4 + 4 * var(--size-standard)/40);
 	opacity: 0.8; 
 	 
 	display: flex; 
