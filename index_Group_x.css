@@ -409,7 +409,7 @@ body{
     	width: calc(var(--size-mau)/2);
    	margin-left: calc(2* var(--size-mau)/40);
     	margin-right: calc(2* var(--size-mau)/40);
-    	font-size: calc(var(--size-mau)/4);
+    	font-size: calc(3 * var(--size-mau)/12);
 
     	display: flex;
     	align-items: center;
