@@ -184,8 +184,6 @@ body{
 	
 	position: absolute; 
 	
-	border-radius: 2%; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	font-weight: 600; 
 	
 	width: 100vw; /*var(--width-content);*/
@@ -203,11 +201,11 @@ body{
 }
 
 .Alert_khung {
-	border-radius: 2%; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	 
 	font-weight: 600; 
 	width: var(--width-content);
 	top: calc(8 * var(--size-standard)/40);
+	
 }
 
 .Alert_header {
@@ -221,6 +219,8 @@ body{
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
+	
+	background: white;
 }
 .Alert_header_1 {
 	
@@ -228,7 +228,9 @@ body{
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
-	border: 0.5px solid
+	
+	border-radius: 2%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 .Alert_header_2 {
 	
@@ -236,6 +238,9 @@ body{
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
+	
+	border-radius: 2%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	
 }
 
@@ -245,6 +250,9 @@ body{
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
+	
+	border-radius: 2%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	
 	overflow-y: scroll;
 	overflow-x: hidden;
