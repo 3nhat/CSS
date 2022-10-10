@@ -305,7 +305,7 @@ body{
     	margin: calc(var(--size-standard)/40);
     	padding: calc(2 * var(--size-standard)/40);
     	height: calc(var(--size-standard)/4);
-    	font-size: calc((var(--size-standard)/4)/4);
+    	font-size: calc(var(--size-standard)/32);
 	text-align: center;
     	font-weight: 900;
     	background: blue;
