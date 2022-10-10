@@ -303,10 +303,10 @@ body{
 
 .header1{
 	width: calc(100vw - 6 * var(--size-standard)/40));
-    	margin: calc((var(--size-standard)/40) / var(--thietbi));
-    	padding: calc((2 * var(--size-standard)/40) / var(--thietbi));
-    	height: calc((var(--size-standard)/4) / (1.5 * var(--thietbi)));
-    	font-size: calc((var(--size-standard)/4) / (1.5 * var(--thietbi)));
+    	margin: calc((var(--size-standard)/40) / (2 * var(--thietbi) - 1));
+    	padding: calc((2 * var(--size-standard)/40) / (2 * var(--thietbi) - 1));
+    	height: calc((var(--size-standard)/4) / (2 * var(--thietbi) - 1));
+    	font-size: calc((var(--size-standard)/4) / (2 * var(--thietbi) - 1));
 	text-align: center;
     	font-weight: 900;
     	background: blue;
