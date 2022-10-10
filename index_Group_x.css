@@ -208,6 +208,7 @@ body{
 	background: white;
 	font-weight: 600; 
 	
+	width: calc(0.9 * var(--width-content));
 	/*top: calc(8 * var(--size-standard)/40);*/
 	
 }
