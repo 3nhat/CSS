@@ -627,6 +627,8 @@ input 				{
   border-bottom:1px solid #757575;
 
 }
+input{ touch-action: none; }
+
 input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
