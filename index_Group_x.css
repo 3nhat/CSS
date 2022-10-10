@@ -198,6 +198,8 @@ body{
 	display: flex;
 	justify-content: center; 
 	align-items: flex-start; /*center;*/
+	
+	padding: calc(0.02 * var(--width-content));
 }
 
 .Alert_khung {
@@ -205,8 +207,8 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background: white;
 	font-weight: 600; 
-	width: calc(0.8 * var(--width-content));
-	top: calc(8 * var(--size-standard)/40);
+	
+	/*top: calc(8 * var(--size-standard)/40);*/
 	
 }
 
