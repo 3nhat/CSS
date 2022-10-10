@@ -418,8 +418,8 @@ body{
 .content2a3, .content1a3 {
 	height: calc(var(--size-mau)/2);
     	width: calc(var(--width-content) -  - 3*var(--size-mau)/2 - 6 * 2 * var(--size-mau)/40);
-   	margin-left: calc(2* var(--size-mau)/40);
-    	margin-right: calc(2* var(--size-mau)/40);
+   	margin-left: calc( (2 * var(--thietbi) - 1) * var(--size-mau)/40);
+    	margin-right: calc( (2 * var(--thietbi) - 1) * var(--size-mau)/40);
     	font-size: calc(var(--size-mau)/6);
 
     	display: flex;
