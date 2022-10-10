@@ -230,7 +230,6 @@ body{
 	
 	flex: calc(var(--size-standard)/4);
 	height: calc(var(--size-standard)/4);
-	padding: calc(2 * var(--size-standard)/40);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -270,6 +269,7 @@ body{
 	border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	padding: calc(0.01 * var(--width-content));
+	margin-top: calc(0.01 * var(--width-content));
 	
 	overflow-y: scroll;
 	overflow-x: hidden;
