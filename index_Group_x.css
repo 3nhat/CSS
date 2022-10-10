@@ -301,11 +301,11 @@ body{
 }
 
 .header1{
-	width: calc((100vw - 6 * var(--size-standard)/40)/4);
+	width: calc(100vw - 6 * var(--size-standard)/40));
     	margin: calc(var(--size-standard)/40);
     	padding: calc(2 * var(--size-standard)/40);
     	height: calc(var(--size-standard)/4);
-    	font-size: calc(var(--size-standard)/4);
+    	font-size: calc((var(--size-standard)/4)/4);
 	text-align: center;
     	font-weight: 900;
     	background: blue;
