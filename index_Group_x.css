@@ -249,7 +249,7 @@ body{
 }
 .Alert_header_2 {
 	
-	flex: calc(0.9 * var(--width-content));
+	flex: 100%;
 	height: calc(var(--size-standard)/4);
 	display: flex; 
 	justify-content: center; 
@@ -270,7 +270,7 @@ body{
 	max-height: var(--height-content);
 	display: flex; 
 	justify-content: center; 
-	align-items: center;
+	align-items: flex-start;
 	background: white;
 	
 	border-radius: 2%; 
