@@ -195,7 +195,7 @@ body{
 	top: calc(5 * var(--size-standard)/4 + 8 * var(--size-standard)/40);
 	opacity: 0.8; 
 	 
-	display: flex; 
+	display: none; /*flex; */
 	justify-content: center; 
 	align-items: flex-start; /*center;*/
 }
