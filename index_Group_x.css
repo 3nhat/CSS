@@ -577,7 +577,7 @@ body{
 		
 .logo {
 	display: var(--display-logo);
-    	font-size: calc(var(--size-standard));
+    	font-size: calc(var(--size-standard) / var(--thietbi));
     	width: 0.1em;
     	height: 1em;
     	background: linear-gradient(#8d0213, #000);
