@@ -634,6 +634,7 @@ body{
 }
 input 				{
   font-size: initial; /*18px;*/
+  font-weight: 900;
   padding:10px 10px 2px 5px;
   display:block;
   width:90%;
@@ -659,7 +660,7 @@ label 				 {
 
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
-  top:-8px;
+  top:-7px;
   font-size: 12px;
   color:#5264AE;
 }
