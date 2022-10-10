@@ -245,6 +245,7 @@ body{
 	margin: calc(0.01 * var(--width-content));
 	padding: calc(0.01 * var(--width-content));
 	*/
+	cursor: pointer;
 }
 .Alert_header_2 {
 	
