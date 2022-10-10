@@ -269,7 +269,7 @@ body{
 	/*width: calc(0.9 * var(--width-content));*/
 	max-height: var(--height-content);
 	display: flex; 
-	justify-content: flex-start; /*center; */
+	justify-content: center;
 	align-items: flex-start;
 	background: white;
 	
@@ -278,7 +278,7 @@ body{
 	padding: calc(0.05 * var(--width-content));
 	margin-top: calc(0.01 * var(--width-content));
 	border: solid
-	font-weight: 400;
+	font-weight: normal;
 
 	
 	overflow-y: scroll;
