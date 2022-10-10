@@ -199,8 +199,8 @@ body{
 	justify-content: center; 
 	align-items: flex-start; /*center;*/
 	
-	/*padding: 0 calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content)) calc(0.02 * var(--width-content));*/
-	padding: 0;
+	padding: calc(0.02 * var(--width-content));
+	
 }
 
 .Alert_khung {
@@ -220,7 +220,7 @@ body{
 	font-weight: 600; 
 	width: calc(0.9 * var(--width-content));
 	height: calc(var(--size-standard)/4);
-	/*margin-top: calc(8 * var(--size-standard)/40);*/
+	margin-top: calc(0.01 * var(--width-content));
 	
 	display: flex; 
 	justify-content: center; 
