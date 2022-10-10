@@ -18,11 +18,11 @@
 	--display-STT_VD: none;
 	
 	--size-mau: calc(var(--size-standard) / (2 * var(--thietbi) - 1));
-      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-standard)/4 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - var(--size-standard) - var(--size-standard)/4 - 2 * 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * var(--size-standard)/40 - 2 * 2 * var(--size-standard)/40 - 1.5 * 2 * var(--size-standard)/40);
+      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau)/4 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 - var(--size-mau) - var(--size-mau)/4 - 2 * 2 * var(--size-mau)/40 - 2 * var(--size-mau)/40 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 - 1.5 * 2 * var(--size-mau)/40);
         
 	
       	--heso-cotcontent : 3;
-      	--width-content: calc(100vw / var(--heso-cotcontent) - 6 * var(--size-standard)/40);
+      	--width-content: calc(100vw / var(--heso-cotcontent) - 6 * var(--size-mau)/40);
         
       	--hesoContent1 : 2;
       	--hesoContent2 : 5;
@@ -142,7 +142,7 @@ body{
     
     	background: orange;
     	z-index: 102;
-    	font-size: calc(var(--size-standard)/4);
+    	font-size: calc(var(--size-mau)/4);
 }
 
 .ngang p {
@@ -195,11 +195,11 @@ body{
 	
 	width: 100vw; /*var(--width-content);*/
 	/*margin: calc(var(--size-standard)/40);*/
-    	height: calc( var(--height-content) + 2 * var(--size-standard)/4 );
+    	height: calc( var(--height-content) + 2 * var(--size-mau)/4 );
 	font-size: var(--font-size-31G);
 	
 	left: 0;
-	top: calc(5 * var(--size-standard)/4 + 8 * var(--size-standard)/40);
+	top: calc(5 * var(--size-mau)/4 + 8 * var(--size-mau)/40);
 	/*opacity: 0.8; */
 	 
 	display: none; /*flex;*/
@@ -227,7 +227,7 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	font-weight: 600; 
 	width: calc(0.9 * var(--width-content));
-	height: calc(var(--size-standard)/4);
+	height: calc(var(--size-mau)/4);
 	margin-top: calc(0.01 * var(--width-content));
 	
 	display: flex; 
@@ -237,8 +237,8 @@ body{
 }
 .Alert_header_1 {
 	
-	flex: calc(var(--size-standard)/4);
-	height: calc(var(--size-standard)/4);
+	flex: calc(var(--size-mau)/4);
+	height: calc(var(--size-mau)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -257,7 +257,7 @@ body{
 .Alert_header_2 {
 	
 	flex: 100%;
-	height: calc(var(--size-standard)/4);
+	height: calc(var(--size-mau)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
