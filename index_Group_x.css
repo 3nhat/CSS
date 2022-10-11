@@ -461,6 +461,8 @@ body{
     	overflow-x: hidden;
 }
 
+.content1b{border: red solid;}
+
 .khung1, .khung2{
 	display: flex;
     	flex-wrap: wrap;
