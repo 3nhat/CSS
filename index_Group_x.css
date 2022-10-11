@@ -449,7 +449,7 @@ body{
 }
 
 .content1b, .content2b, .content3b{
-	width: calc(var(--width-content) - 20 * var(--size-mau)/40);
+	width: calc(var(--width-content) - 6 * var(--size-mau)/40);
     	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 4 * var(--size-mau)/40);
 	
     	border-radius: calc(3 * var(--size-mau)/40);
