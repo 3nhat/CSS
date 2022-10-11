@@ -193,7 +193,9 @@ body{
 	
 	font-weight: 600; 
 	
-	width: 100vw; /*var(--width-content);*/
+	width: 100%; /*var(--width-content);*/
+	max-width: 100%;
+    	overflow: hidden;
 	/*margin: calc(var(--size-standard)/40);*/
     	height: calc( var(--height-content) + 2 * var(--size-mau)/4 );
 	font-size: var(--font-size-31G);
