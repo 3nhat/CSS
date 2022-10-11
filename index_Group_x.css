@@ -496,7 +496,7 @@ body{
 }
 
 .VD_content1bKK {
-    	width: calc(var(--width-content)/4 - 12*var(--size-mau)/40);
+    	width: calc(var(--width-content)/4 - 16*var(--size-mau)/40);
 	margin-left: calc(var(--size-mau)/80);
     	padding-left: calc(var(--size-mau)/40);
 	padding-right: calc(var(--size-mau)/40);
