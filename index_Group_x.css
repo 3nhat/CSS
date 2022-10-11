@@ -259,7 +259,7 @@ body{
 }
 .Alert_header_2 {
 	
-	flex: 100%;
+	flex: 99%;
 	height: calc(var(--size-mau)/4);
 	display: flex; 
 	justify-content: center; 
