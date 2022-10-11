@@ -189,7 +189,7 @@ body{
 .Alert {
 	z-index: 98;
 	
-	position: absolute; 
+	position: fixed; 
 	
 	font-weight: 600; 
 	
