@@ -413,7 +413,9 @@ body{
 .content3{ display: var(--display-content3);}
 
 .content1a, .content2a, .content3a{
+	
 	width: var(--width-content);
+	padding-bottom: calc(2* var(--size-mau)/40);
     	display: flex;
   	flex-direction: row;
 }
