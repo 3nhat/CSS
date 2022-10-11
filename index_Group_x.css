@@ -186,9 +186,9 @@ body{
 }
 .VirtualButton div{ width: var(--width-31G); text-align: center;}
 
-.Alert {
-	z-index: 98;
-	
+.Alert {z-index: 98; display: none; /*flex;*/}
+.Control {z-index: 97; display: none; /*flex;*/}
+.Alert, .Control {
 	position: fixed; 
 	
 	font-weight: 600; 
@@ -203,7 +203,7 @@ body{
 	top: calc(5 * var(--size-mau)/4 + 8 * var(--size-mau)/40);
 	/*opacity: 0.8; */
 	 
-	display: none; /*flex;*/
+	
 	justify-content: center; 
 	align-items: flex-start; /*center;*/
 	
@@ -212,7 +212,7 @@ body{
 	
 }
 
-.Alert_khung {
+.Alert_khung, .Control_khung {
 	border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border: blue solid;
@@ -225,7 +225,7 @@ body{
 	
 }
 
-.Alert_header {
+.Alert_header, .Control_header {
 	/*border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	font-weight: 600; 
@@ -238,7 +238,7 @@ body{
 	align-items: center;
 	
 }
-.Alert_header_1 {
+.Alert_header_1, .Control_header_1 {
 	
 	flex: calc(var(--size-mau)/4);
 	height: calc(var(--size-mau)/4);
@@ -258,7 +258,7 @@ body{
 	*/
 	cursor: pointer;
 }
-.Alert_header_2 {
+.Alert_header_2, .Control_header_2 {
 	
 	flex: 100%;
 	height: calc(var(--size-mau)/4);
@@ -277,15 +277,15 @@ body{
 	
 }
 
-.Alert_body::-webkit-scrollbar, .Alert::-webkit-scrollbar {
+.Alert_body::-webkit-scrollbar, .Alert::-webkit-scrollbar, .Control_body::-webkit-scrollbar, .Control::-webkit-scrollbar {
 	display: none;
 }
-.Alert_body, .Alert {
+.Alert_body, .Alert, .Control_body, .Control {
 	-ms-overflow-style: none; scrollbar-width: none;
 }
 
 
-.Alert_body {
+.Alert_body, .Control_body {
 	/*width: calc(0.9 * var(--width-content));*/
 	max-height: calc(0.8 * var(--height-content));
 	display: flex; 
