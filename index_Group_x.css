@@ -287,7 +287,7 @@ body{
 
 .Alert_body {
 	/*width: calc(0.9 * var(--width-content));*/
-	max-height: var(--height-content);
+	max-height: calc(0.9 * var(--height-content));
 	display: flex; 
 	justify-content: center;
 	align-items: flex-start;
@@ -296,7 +296,7 @@ body{
 	border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	padding: calc(0.05 * var(--width-content));
-	margin-top: calc(0.01 * var(--width-content));
+	margin: calc(0.01 * var(--width-content));
 	border: solid
 	font-weight: normal;
 
