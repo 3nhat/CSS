@@ -193,7 +193,7 @@ body{
 	
 	font-weight: 600; 
 	
-	width: 99%; /*var(--width-content);*/
+	width: 98%; /*var(--width-content);*/
     	overflow: hidden;
 	/*margin: calc(var(--size-standard)/40);*/
     	height: calc( var(--height-content));
