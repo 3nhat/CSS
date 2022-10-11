@@ -22,7 +22,7 @@
         
 	
       	--heso-cotcontent : 3;
-      	--width-content: calc(100vw / var(--heso-cotcontent) - 4 * var(--size-mau)/40);
+      	--width-content: calc(100vw / var(--heso-cotcontent) - 2 * var(--size-mau)/40);
         
       	--hesoContent1 : 2;
       	--hesoContent2 : 5;
@@ -449,7 +449,7 @@ body{
 }
 
 .content1b, .content2b, .content3b{
-	width: var(--width-content);
+	width: calc(var(--width-content) - 2 * var(--size-mau)/40);
     	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 4 * var(--size-mau)/40);
 	
     	border-radius: calc(3 * var(--size-mau)/40);
@@ -496,7 +496,7 @@ body{
 }
 
 .VD_content1bKK {
-    	width: calc(var(--width-content)/4 - 10*var(--size-mau)/40);
+    	width: calc(var(--width-content)/4 - 12*var(--size-mau)/40);
 	margin-left: calc(var(--size-mau)/80);
     	padding-left: calc(var(--size-mau)/40);
 	padding-right: calc(var(--size-mau)/40);
