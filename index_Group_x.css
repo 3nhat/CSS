@@ -194,10 +194,9 @@ body{
 	font-weight: 600; 
 	
 	width: 100%; /*var(--width-content);*/
-	max-width: 100%;
     	overflow: hidden;
 	/*margin: calc(var(--size-standard)/40);*/
-    	height: calc( var(--height-content) + 2 * var(--size-mau)/4 );
+    	height: calc( var(--height-content));
 	font-size: var(--font-size-31G);
 	
 	left: 0;
@@ -209,6 +208,7 @@ body{
 	align-items: flex-start; /*center;*/
 	
 	padding: calc(0.02 * var(--width-content));
+	border: solid;
 	
 }
 
@@ -220,6 +220,7 @@ body{
 	font-weight: 600; 
 	
 	width: calc(0.9 * var(--width-content));
+	
 	/*top: calc(8 * var(--size-standard)/40);*/
 	
 }
