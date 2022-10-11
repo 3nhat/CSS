@@ -22,7 +22,7 @@
         
 	
       	--heso-cotcontent : 3;
-      	--width-content: calc(100vw / var(--heso-cotcontent) - 6 * var(--size-mau)/40);
+      	--width-content: calc(100vw / var(--heso-cotcontent) - 7 * var(--size-mau)/40);
         
       	--hesoContent1 : 2;
       	--hesoContent2 : 5;
@@ -449,7 +449,7 @@ body{
 }
 
 .content1b, .content2b, .content3b{
-	width: calc(var(--width-content) - 2 * var(--size-mau)/40);
+	width: var(--width-content);
     	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 4 * var(--size-mau)/40);
 	
     	border-radius: calc(3 * var(--size-mau)/40);
