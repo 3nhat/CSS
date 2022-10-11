@@ -538,7 +538,7 @@ body{
 }
 
 .VD_content1bKKd {
-	width: calc(var(--width-content) - 18*var(--size-mau)/40);
+	width: calc(var(--width-content) - 20*var(--size-mau)/40);
 	margin: calc(var(--size-mau)/40);
     	padding-left: calc(var(--size-mau)/40);
     	padding-right: calc(var(--size-mau)/40);
@@ -577,7 +577,7 @@ body{
   
 .VD_content1bKK_icon {
   
-    	width: calc(var(--width-content)/var(--hesoContent2) - 10*var(--size-mau)/40);
+    	width: calc(var(--width-content)/var(--hesoContent2) - 20*var(--size-mau)/40);
 	padding-left: calc(var(--size-mau)/40);
 	padding-right: calc(var(--size-mau)/40);
     
