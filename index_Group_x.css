@@ -18,7 +18,7 @@
 	--display-STT_VD: none;
 	
 	--size-mau: calc(var(--size-standard) / (2 * var(--thietbi) - 1));
-      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau)/4 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 - var(--size-mau) - 2*var(--size-mau)/4);
+      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau)/4 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 - var(--size-mau) - var(--size-mau)/4);
         
 	
       	--heso-cotcontent : 3;
@@ -450,7 +450,7 @@ body{
 
 .content1b, .content2b, .content3b{
 	width: calc(var(--width-content) - 4 * var(--size-mau)/40);
-    	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 4 * var(--size-mau)/40);
+    	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 6 * var(--size-mau)/40);
 	
     	border-radius: calc(3 * var(--size-mau)/40);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
