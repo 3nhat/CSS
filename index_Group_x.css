@@ -18,7 +18,7 @@
 	--display-STT_VD: none;
 	
 	--size-mau: calc(var(--size-standard) / (2 * var(--thietbi) - 1));
-      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau)/4 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 - var(--size-mau) - var(--size-mau)/4 - 2 * 2 * var(--size-mau)/40 );
+      	--height-content: calc(var(--vh, 1vh) * 100 - var(--size-mau)/4 - 2 * var(--size-mau)/40 - 2 * 2 * var(--size-mau)/40 );
         
 	
       	--heso-cotcontent : 3;
