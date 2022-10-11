@@ -462,6 +462,8 @@ body{
 }
 
 .content1b{border: red solid;}
+.content2b{border: blue solid;}
+.content3b{border: purple solid;}
 
 .khung1, .khung2{
 	display: flex;
