@@ -367,7 +367,7 @@ body{
     	display: flex;
   	flex-direction: row;
 }
-
+/*
 .header3_1, .header3_3, .header3_4{
 	width: calc(var(--size-mau)/4);
     	height: calc(var(--size-mau)/4);
@@ -375,9 +375,10 @@ body{
     	align-items: center;
     	justify-content: center;
 }
+*/
 
 .header3_2{
-	width: calc(100vw - 3 * var(--size-mau)/4);
+	width: 100vw; /*calc(100vw - 3 * var(--size-mau)/4);*/
     	height: var(--size-mau)/4;
     	display: flex;
     	align-items: center;
