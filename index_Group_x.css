@@ -409,7 +409,7 @@ body{
 	width: var(--width-content);
 	margin: calc(var(--size-mau)/40);
     	padding: calc(2 * var(--size-mau)/40);
-    	height: var(--height-content);
+    	height: calc(var(--height-content) - 2 * var(--size-mau)/40);
 
 }
 
@@ -450,7 +450,7 @@ body{
 
 .content1b, .content2b, .content3b{
 	width: var(--width-content);
-    	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40);
+    	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 2 * var(--size-mau)/40);
 	
     	border-radius: calc(3 * var(--size-mau)/40);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
