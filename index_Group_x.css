@@ -22,7 +22,7 @@
         
 	
       	--heso-cotcontent : 3;
-      	--width-content: calc(100vw / var(--heso-cotcontent) - 10 * var(--size-mau)/40);
+      	--width-content: calc(100vw / var(--heso-cotcontent) - 4 * var(--size-mau)/40);
         
       	--hesoContent1 : 2;
       	--hesoContent2 : 5;
