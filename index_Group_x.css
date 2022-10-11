@@ -51,7 +51,7 @@ body::-webkit-scrollbar, .content::-webkit-scrollbar, .content1::-webkit-scrollb
 	display: none;
 }
 		
-body, .content, .content1, .content2, .content3 { 
+body, .content, .content1, .content2, .content3, .Alert { 
 	-ms-overflow-style: none; scrollbar-width: none; 
 }
         
@@ -193,7 +193,7 @@ body{
 	
 	font-weight: 600; 
 	
-	width: 98%; /*var(--width-content);*/
+	width: 99%; /*var(--width-content);*/
     	overflow: hidden;
 	/*margin: calc(var(--size-standard)/40);*/
     	height: calc( var(--height-content));
@@ -275,6 +275,14 @@ body{
 	
 }
 
+.Alert_body::-webkit-scrollbar, .Alert::-webkit-scrollbar {
+	display: none;
+}
+.Alert_body, .Alert {
+	-ms-overflow-style: none; scrollbar-width: none;
+}
+
+
 .Alert_body {
 	/*width: calc(0.9 * var(--width-content));*/
 	max-height: var(--height-content);
@@ -294,12 +302,10 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 		
-	-ms-overflow-style: none; scrollbar-width: none; 
+	 
 
 }
-.Alert_body::-webkit-scrollbar {
-	display: none;
-}
+
 
 		
 .header, .content {
