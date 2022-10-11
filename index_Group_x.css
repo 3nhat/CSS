@@ -298,7 +298,7 @@ body{
 	padding: calc(0.05 * var(--width-content));
 	margin: calc(0.01 * var(--width-content));
 	border: solid
-	font-weight: normal;
+	font-weight: 400;
 
 	
 	overflow-y: scroll;
