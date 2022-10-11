@@ -318,7 +318,7 @@ body{
 	width: calc(100vw - 6 * var(--size-mau)/40));
     	margin: calc(var(--size-mau)/40) );
     	padding: calc(2 * var(--size-mau)/40);
-    	height: calc(var(--size-mau)/4);
+    	height: calc(1.5 * var(--size-mau)/4);
     	font-size: calc(var(--size-mau)/4);
 	text-align: center;
     	font-weight: 900;
