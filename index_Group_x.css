@@ -208,7 +208,7 @@ body{
 	align-items: flex-start; /*center;*/
 	
 	padding: calc(0.02 * var(--width-content));
-	border: solid;
+
 	
 }
 
@@ -251,8 +251,9 @@ body{
 	
 	
 	font-size: calc(0.8 * var(--font-size-31G));
+	
+	margin-top: calc(0.01 * var(--width-content));
 	/*
-	margin: calc(0.01 * var(--width-content));
 	padding: calc(0.01 * var(--width-content));
 	*/
 	cursor: pointer;
@@ -268,7 +269,8 @@ body{
 	border-radius: 5%; 
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	border: 0.5px solid;
-	padding: calc(0.01 * var(--width-content));
+	margin-top: calc(0.01 * var(--width-content));
+	padding: calc(0.02 * var(--width-content));
 	
 	background: blue;
 	color: white;
