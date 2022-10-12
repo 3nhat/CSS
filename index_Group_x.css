@@ -351,7 +351,7 @@ body{
 	margin-right: calc(2 * var(--size-mau)/40);
 }
 
-#imageLogo1, #imageLogo2 {display: none;}
+
 		
 .header2_2{
 	height: var(--size-mau);
