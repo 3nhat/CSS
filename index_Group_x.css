@@ -574,7 +574,7 @@ body{
 
 .content1bK{
 	display: flex;
-    	flex-wrap: wrap;
+    	flex-wrap: row; /*wrap;*/
     	justify-content: left;
     	margin-top: calc(4*var(--size-mau)/40);
     	margin-left: calc(2*var(--size-mau)/40);
