@@ -584,6 +584,7 @@ body{
 
 
 .content1bKK{
+	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
 	display: flex;
     	flex-wrap: wrap;
     	justify-content: left;
