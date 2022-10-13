@@ -594,7 +594,7 @@ body{
 }
 
 .content1bKK_2 {
-	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
+	flex: calc(var(--width-content)/var(--hesoContent2));
 }
 
 .VD_content1bKK {
