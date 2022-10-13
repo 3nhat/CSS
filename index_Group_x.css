@@ -425,7 +425,7 @@ body{
 
 }
 
-.content1_div2, .content2_div2, .content3_div2 {
+.content1_div3, .content2_div3, .content3_div3 {
 	position: absolute;
 	width: var(--width-content);
 	height: calc(var(--height-content) - 1.5 * var(--size-mau));
