@@ -441,6 +441,39 @@ body{
 	border: solid;
 }
 
+.info1_header_1, .info2_header_1, .info3_header_1 {
+	
+	flex: calc(var(--size-mau)/4);
+	height: calc(var(--size-mau)/4);
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	
+	border-radius: 2%; 
+	
+	font-size: calc(0.8 * var(--font-size-31G));
+	
+	margin-top: calc(0.01 * var(--width-content));
+	cursor: pointer;
+}
+.info1_header_2, .info2_header_2, .info3_header_2 {
+	
+	flex: 100%;
+	height: calc(var(--size-mau)/4);
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	
+	border-radius: 5%; 
+	border: 0.5px solid;
+	margin-top: calc(0.01 * var(--width-content));
+	padding: calc(0.01 * var(--width-content));
+	
+	background: blue;
+	color: white;
+	
+}
+
 .content1_div1, .content2_div1, .content3_div1 {
 	position: absolute;
 	width: calc(var(--width-content) - var(--size-mau)/2 - 4 * var(--size-mau)/40  - var(--size-mau)/2 - 4 * var(--size-mau)/40);
