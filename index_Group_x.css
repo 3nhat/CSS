@@ -431,13 +431,12 @@ body{
 }
 
 .info1_khung, .info2_khung, .info3_khung {
-	position: absolute;
 	width: calc(0.8 * var(--width-content));
 	margin-left: calc(0.1 * var(--width-content));
 	margin-top: var(--size-mau);
 	height: calc(var(--height-content) - 1.5 * var(--size-mau));
 	max-height: calc(var(--height-content) - 1.5 * var(--size-mau));
-	background: white;
+	background: green;
 	border-radius: 5%;
 	border: solid;
 }
