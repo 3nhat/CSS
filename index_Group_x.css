@@ -579,9 +579,11 @@ body{
     	margin-top: calc(4*var(--size-mau)/40);
     	margin-left: calc(2*var(--size-mau)/40);
     
-    	/*flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);*/
-	flex: 100%;
+    	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
+	
 }
+
+.content1bK_detail {flex: 100%; }
 
 
 .content1bKK{
