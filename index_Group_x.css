@@ -594,7 +594,7 @@ body{
 }
 
 .content1bKK_2 {
-	display: block;
+	display: none;
 	flex: calc(100% - var(--width-content)/var(--hesoContent2));
 }
 
