@@ -418,7 +418,7 @@ body{
 	width: var(--width-content);
 	margin: calc(var(--size-mau)/40);
     	padding: calc(2 * var(--size-mau)/40);
-    	height: calc(var(--height-content) - 2 * var(--size-mau)/40);
+    	height: calc(var(--height-content) - 1.5 * var(--size-mau)/40);
 	position: relative;
 
 }
