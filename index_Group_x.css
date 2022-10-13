@@ -411,6 +411,7 @@ body{
 	width: 100%;
 	height: calc(var(--height-content) - 2 * var(--size-mau)/40);
 	z-index: 1000;
+	display: none;
 }
 
 .content1, .content2, .content3{
