@@ -593,6 +593,10 @@ body{
     	margin-right: calc(2*var(--size-mau)/40);
 }
 
+.content1bKK_2 {
+	flex: 100%;
+}
+
 .VD_content1bKK {
     	width: calc(var(--width-content)/4 - 16*var(--size-mau)/40);
 	margin-left: calc(var(--size-mau)/80);
