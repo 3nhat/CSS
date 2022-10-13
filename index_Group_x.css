@@ -265,7 +265,7 @@ body{
 .Alert_header_2, .Control_header_2, .info1_header_2, .info2_header_2, .info3_header_2 {
 	
 	flex: 100%;
-	height: calc(var(--size-mau)/4);
+	height: calc(2*var(--size-mau)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -274,8 +274,8 @@ body{
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	border: 0.5px solid;
 	margin-top: calc(0.01 * var(--width-content));
-	padding-left: calc(0.01 * var(--width-content));
-	padding-right: calc(0.01 * var(--width-content));
+	padding: calc(0.01 * var(--width-content));
+	calc(0.01 * var(--width-content));
 	
 	background: blue;
 	color: white;
