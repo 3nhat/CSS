@@ -431,7 +431,7 @@ body{
 	left: calc(var(--size-mau)/2 + 4 * var(--size-mau)/40);
 	z-index: 1000;
 	background: white;
-	border-radius: 50%;
+	border-radius: 5%;
 	border: solid;
 }
 
