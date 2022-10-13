@@ -265,7 +265,7 @@ body{
 .Alert_header_2, .Control_header_2, .info1_header_2, .info2_header_2, .info3_header_2 {
 	
 	flex: 100%;
-	height: calc(2*var(--size-mau)/4);
+	height: calc((0.5 * (3 - var(--thiebi)) + 0.5 * (2 * var(--thietbi) - 1)) * var(--size-mau)/4);
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
