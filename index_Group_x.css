@@ -419,7 +419,18 @@ body{
 	margin: calc(var(--size-mau)/40);
     	padding: calc(2 * var(--size-mau)/40);
     	height: calc(var(--height-content) - 2 * var(--size-mau)/40);
+	position: relative;
 
+}
+
+.content1_div1 {
+	position: absolute;
+	width: var(--width-content);
+	height: calc(var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 6 * var(--size-mau)/40);
+	top: calc(var(--size-mau)/2);
+	left:0;
+	z-index: 1000;
+	background: green;
 }
 
 .content1{ display: var(--display-content1);}
