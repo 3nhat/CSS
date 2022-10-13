@@ -425,17 +425,18 @@ body{
 
 }
 
-.content1_div3, .content2_div3, .content3_div3 {
+.content1_div3, .content2_div3, .content3_div3, .content1_div2, .content2_div2, .content3_div2 {
 	position: absolute;
 	width: var(--width-content);
 	height: calc(var(--height-content) - 1.5 * var(--size-mau));
-	z-index: 1001;
 	display: none;
 }
+.content1_div3, .content2_div3, .content3_div3 {z-index: 1002;}
+.content1_div2, .content2_div2, .content3_div2 {z-index: 1002; display: block;}
 
 
 
-.info1_khung, .info2_khung, .info3_khung {
+.info1_khung, .info2_khung, .info3_khung, .control1_khung, .control2_khung, .control3_khung {
 	width: calc(0.8 * var(--width-content));
 	margin-left: calc(0.1 * var(--width-content));
 	margin-top: var(--size-mau);
@@ -448,7 +449,7 @@ body{
 	
 }
 
-.info1_header, .info2_header, .info3_header {
+.info1_header, .info2_header, .info3_header, .control1_header, .control2_header, .control3_header {
 	/*border-radius: 2%; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	font-weight: 600; 
@@ -462,15 +463,15 @@ body{
 	
 }
 
-.info1_body::-webkit-scrollbar, .info1_khung::-webkit-scrollbar, .info2_body::-webkit-scrollbar, .info2_khung::-webkit-scrollbar, .info3_body::-webkit-scrollbar, .info3_khung::-webkit-scrollbar {
+.info1_body::-webkit-scrollbar, .info1_khung::-webkit-scrollbar, .info2_body::-webkit-scrollbar, .info2_khung::-webkit-scrollbar, .info3_body::-webkit-scrollbar, .info3_khung::-webkit-scrollbar, .control1_body::-webkit-scrollbar, .control1_khung::-webkit-scrollbar, .control2_body::-webkit-scrollbar, .control2_khung::-webkit-scrollbar, .control3_body::-webkit-scrollbar, .control3_khung::-webkit-scrollbar {
 	display: none;
 }
-.info1_body, .info1_khung, .info2_body, .info2_khung, .info3_body, .info3_khung {
+.info1_body, .info1_khung, .info2_body, .info2_khung, .info3_body, .info3_khung, .control1_body, .control1_khung, .control2_body, .control2_khung, .control3_body, .control3_khung {
 	-ms-overflow-style: none; scrollbar-width: none;
 }
 
 
-.info1_body, .info2_body, .info3_body {
+.info1_body, .info2_body, .info3_body, .control1_body, .control2_body, .control3_body {
 	/*width: calc(0.9 * var(--width-content));*/
 	min-height: calc(0.2 * var(--height-content));
 	max-height: calc(0.8 * var(--height-content));
