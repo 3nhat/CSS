@@ -433,6 +433,7 @@ body{
 	background: white;
 	border-radius: 5%;
 	border: solid;
+	display: none;
 }
 
 .content1{ display: var(--display-content1);}
