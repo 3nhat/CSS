@@ -429,6 +429,7 @@ body{
 	width: var(--width-content);
 	height: calc(var(--height-content) - 1.5 * var(--size-mau));
 	z-index: 1001;
+	display: none;
 }
 
 
