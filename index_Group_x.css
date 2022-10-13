@@ -423,6 +423,25 @@ body{
 
 }
 
+.content1_div2, .content2_div2, .content3_div2 {
+	position: absolute;
+	width: var(--width-content);
+	height: calc(var(--height-content) - 1.5 * var(--size-mau));
+	z-index: 1001;
+}
+
+.info1_khung, .info2_khung, .info3_khung {
+	position: absolute;
+	width: calc(0.8 * var(--width-content));
+	margin-left: calc(0.1 * var(--width-content));
+	margin-top:
+	height: calc(var(--size-mau)/40);
+	max-height: calc(var(--size-mau)/40);
+	background: white;
+	border-radius: 5%;
+	border: solid;
+}
+
 .content1_div1, .content2_div1, .content3_div1 {
 	position: absolute;
 	width: calc(var(--width-content) - var(--size-mau)/2 - 4 * var(--size-mau)/40  - var(--size-mau)/2 - 4 * var(--size-mau)/40);
