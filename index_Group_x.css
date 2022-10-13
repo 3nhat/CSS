@@ -425,7 +425,7 @@ body{
 
 .content1_div1 {
 	position: absolute;
-	width: calc(var(--width-content) - var(--size-mau)/2 - 4 * var(--size-mau)/40 - 2 * var(--size-mau)/40);
+	width: calc(var(--width-content) - var(--size-mau)/2 - 4 * var(--size-mau)/40  - var(--size-mau)/2 - 4 * var(--size-mau)/40);
 	height: calc((var(--height-content) - var(--size-mau)/2 - 2 * var(--size-mau)/40  - 6 * var(--size-mau)/40)/3);
 	top: calc(var(--size-mau)/2);
 	left: calc(var(--size-mau)/2 + 4 * var(--size-mau)/40);
