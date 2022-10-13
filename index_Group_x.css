@@ -436,16 +436,13 @@ body{
 	width: calc(0.8 * var(--width-content));
 	margin-left: calc(0.1 * var(--width-content));
 	margin-top: var(--size-mau);
-	height: calc(var(--height-content) - 1.5 * var(--size-mau));
+	max-height: calc(var(--height-content) - 1.5 * var(--size-mau));
 
 	background: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 5%;
 	border: solid;
 	
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
 }
 
 .info1_header, .info2_header, .info3_header {
