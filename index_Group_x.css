@@ -291,7 +291,7 @@ body{
 
 .Alert_body, .Control_body {
 	/*width: calc(0.9 * var(--width-content));*/
-	min-height: calc(0.3 * var(--height-content));
+	min-height: calc(0.2 * var(--height-content));
 	max-height: calc(0.8 * var(--height-content));
 	display: flex; 
 	justify-content: center;
@@ -470,7 +470,7 @@ body{
 
 .info1_body, .info2_body, .info3_body {
 	/*width: calc(0.9 * var(--width-content));*/
-	min-height: calc(0.3 * var(--height-content));
+	min-height: calc(0.2 * var(--height-content));
 	max-height: calc(0.8 * var(--height-content));
 	display: flex; 
 	justify-content: center;
