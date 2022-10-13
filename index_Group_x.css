@@ -402,9 +402,15 @@ body{
 .content{
 	display: flex;
     	flex-direction: row;  
+	position: relative;
 	
+}
 
-	
+.content_image{
+	position: absolute;
+	width: 100%;
+	height: calc(var(--height-content) - 2 * var(--size-mau)/40);
+	z-index: 1000;
 }
 
 .content1, .content2, .content3{
