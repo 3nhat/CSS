@@ -430,7 +430,9 @@ body{
 	top: calc(var(--size-mau)/2 + 4* var(--size-mau)/40);
 	left: calc(var(--size-mau)/2 + 4 * var(--size-mau)/40);
 	z-index: 1000;
-	background: green;
+	background: white;
+	border-radius: 50%;
+	border: solid;
 }
 
 .content1{ display: var(--display-content1);}
