@@ -262,7 +262,7 @@ body{
 	*/
 	cursor: pointer;
 }
-.Alert_header_2, .Control_header_2, .info1_header_2, .info2_header_2, .info3_header_2 {
+.Alert_header_2, .Control_header_2, .info1_header_2, .info2_header_2, .info3_header_2, .control1_header_2, .control2_header_2, .control3_header_2 {
 	
 	flex: 100%;
 	height: calc((0.2 * (3 - var(--thiebi)) + 0.5 * (2 * var(--thietbi) - 1)) * var(--size-mau)/4);
@@ -432,7 +432,7 @@ body{
 	display: none;
 }
 .content1_div3, .content2_div3, .content3_div3 {z-index: 1002;}
-.content1_div2, .content2_div2, .content3_div2 {z-index: 1002; display: block;}
+.content1_div2, .content2_div2, .content3_div2 {z-index: 1001; display: block;}
 
 
 
