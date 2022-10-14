@@ -698,8 +698,10 @@ body{
   	margin-top: calc(-3 * var(--thietbi) * var(--size-mau)/50);
   }
 
-.content1bK_detail {flex: 100%; }
+.content1bK_detail_100 {flex: 100%; }
+.content1bK_detail_50 {flex: 50%; }
 .icon1_detail {display: none;}
+.icon1Text1_detail {display: none;}
 .content1bKK_2_detail { display: block;}
 .content1bKK_detail{flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);}
 
