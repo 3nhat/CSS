@@ -574,9 +574,7 @@ body{
     	flex-wrap: wrap;
 }
 
-.content1bK_parent{
-	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
-}
+
 
 .content1bK{
 	display: flex;
@@ -588,6 +586,13 @@ body{
     	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
 	/*width: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);*/
 	
+}
+
+.content1bK_child{
+	display: flex;
+    	flex-wrap: row; /*wrap;*/
+    	justify-content: left;
+	width: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
 }
 
 .content1bKK{
