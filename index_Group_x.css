@@ -701,6 +701,7 @@ body{
 .content1bK_detail_100 {flex: 100%; }
 .content1bK_detail_50 {
 	flex: 100%; 
+	
 	transform: scale(0.5);
 	transform-origin: top left;
     	margin-bottom: calc((1 - 0.5) * 100%);
@@ -709,7 +710,11 @@ body{
 }
 .icon1_detail {display: none;}
 .icon1Text1_detail {display: none;}
-.content1bKK_2_detail { display: block; border: 0.5px solid;}
+.content1bKK_2_detail { 
+	display: block; 
+	border: 0.5px solid;
+	font-size: calc(2*((var(--width-content)/var(--hesoContent2) - 10*var(--size-mau)/40)/6));
+}
 .content1bKK_detail{flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);}
 
 .STT_VD {display: var(--display-STT_VD); }
