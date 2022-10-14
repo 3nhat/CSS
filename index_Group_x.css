@@ -575,7 +575,7 @@ body{
 }
 
 .content1bK_parent{
-	width: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
+	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
 }
 
 .content1bK{
