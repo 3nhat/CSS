@@ -699,10 +699,10 @@ body{
   }
 
 .content1bK_detail_100 {flex: 100%; }
-.content1bK_detail_50 {flex: 50%; }
+.content1bK_detail_50 {flex: 100%; transform: scale(0.5);}
 .icon1_detail {display: none;}
 .icon1Text1_detail {display: none;}
-.content1bKK_2_detail { display: block;}
+.content1bKK_2_detail { display: block; border: 0.5px solid;}
 .content1bKK_detail{flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);}
 
 .STT_VD {display: var(--display-STT_VD); }
