@@ -476,6 +476,7 @@ body{
 	min-height: calc(0.2 * var(--height-content));
 	max-height: calc(0.8 * var(--height-content));
 	display: flex; 
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: flex-start;
 	background: white;
