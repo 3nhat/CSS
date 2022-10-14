@@ -573,6 +573,10 @@ body{
     	flex-wrap: wrap;
 }
 
+.content1bK_parent{
+	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40);
+}
+
 .content1bK{
 	display: flex;
     	flex-wrap: row; /*wrap;*/
