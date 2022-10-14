@@ -607,7 +607,7 @@ body{
 .content1bKK_2 {
 	display: none;
 	/*flex: calc(100% - var(--width-content)/var(--hesoContent2));*/
-	flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40 - var(--width-content)/var(--hesoContent2));
+	/*flex: calc(var(--width-content)/var(--hesoContent2) - 6*var(--size-mau)/40 - var(--width-content)/var(--hesoContent2)); */
 }
 
 .VD_content1bKK {
