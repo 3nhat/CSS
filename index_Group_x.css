@@ -690,7 +690,7 @@ body{
     	font-size: calc((var(--width-content)/var(--hesoContent2) - 10*var(--size-mau)/40)/2);
   }
   
-  .icon1Text1, .icon1Text2 {
+  .icon1Text1, .icon1Text2, .icon1Text3 {
   	width: 100%;
     	font-size: calc((var(--width-content)/var(--hesoContent2) - 10*var(--size-mau)/40)/6);
   }
